@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    border: 2px solid gray;
+}
+
+.sidepanel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: auto;
+}
